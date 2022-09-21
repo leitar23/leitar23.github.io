@@ -3832,7 +3832,7 @@ h1.page-title + .tag-cloud-list {
 }
 #footer-wrap {
   position: relative;
-  padding: 0px 0px;
+  padding: 20px 0px;
   color: var(--light-grey);
   text-align: center;
 }
