@@ -8,7 +8,7 @@
       <link href="/posts/6cb5a254/"/>
       <url>/posts/6cb5a254/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="一、了解Java"><a href="#一、了解Java" class="headerlink" title="一、了解Java"></a>一、了解Java</h1><h2 id="1、Java重要特点"><a href="#1、Java重要特点" class="headerlink" title="1、Java重要特点"></a>1、Java重要特点</h2><ol><li>Java 语言是面向对象的(oop)</li><li>Java 语言是健壮的。Java 的强类型机制、异常处理、垃圾的自动收集等是 Java 程序健壮性的重要保证</li><li>Java 语言是<u>跨平台性的</u>。[即: 一个编译好的.class 文件可以在多个系统下运行，这种特性称为跨平台]<br><img src="https://www.helloimg.com/images/2022/09/22/Z8qcob.md.png" alt=""></li><li>Java 语言是解释型的[了解]<br>解释性语言：javascript,PHP, java 编译性语言: c / c++<br>区别是：解释性语言，编译后的代码，不能直接被机器执行,需要解释器来执行；编译性语言, 编译后的代码, 可 以直接被机器执行, c /c++</li></ol><h2 id="2、Java-运行机制及运行过程"><a href="#2、Java-运行机制及运行过程" class="headerlink" title="2、Java 运行机制及运行过程"></a>2、Java 运行机制及运行过程</h2><h3 id="2-1、Java-语言的特点：跨平台性"><a href="#2-1、Java-语言的特点：跨平台性" class="headerlink" title="2.1、Java 语言的特点：跨平台性"></a>2.1、Java 语言的特点：跨平台性</h3><p><img src="https://www.helloimg.com/images/2022/09/22/Z8xTwM.md.png" alt=""></p><hr><h3 id="2-2、Java-核心机制-Java-虚拟机-JVM-java-virtual-machine"><a href="#2-2、Java-核心机制-Java-虚拟机-JVM-java-virtual-machine" class="headerlink" title="2.2、Java 核心机制-Java 虚拟机[JVM java virtual machine]"></a>2.2、Java 核心机制-Java 虚拟机[JVM java virtual machine]</h3><ol><li>JVM 是一个虚拟的计算机，具有指令集并使用不同的存储区域。负责执行指令，管理数据、内存、寄存器，包含在<u>JDK</u>中</li><li>对于不同的平台(系统)，有不同的虚拟机。</li><li>Java 虚拟机机制屏蔽了底层运行平台的差别，实现了“一次编译，到处运行”<br><img src="https://www.helloimg.com/images/2022/09/22/Z8xWhP.md.png" alt="编译指令、运行指令"></li></ol>]]></content>
       
       
       <categories>
