@@ -250,3 +250,34 @@
    padding: 0;
    margin: 0 10px;
  }
+
+
+ #local-search .search-dialog .local-search__hit-item:before {
+   content: none !important;
+ }
+
+ #local-search .search-dialog .local-search__hit-item {
+   padding: 10px !important;
+   border-radius: 8px;
+   border: var(--style-border);
+   margin-bottom: 10px;
+ }
+
+ #local-search .tag-list {
+   padding: 4px 8px;
+   border-radius: 8px;
+   margin-right: 0.5rem;
+   margin-top: 0.5rem;
+   border: var(--style-border);
+   cursor: pointer;
+ }
+
+ #local-search .search-dialog .local-search__hit-item .tag-list {
+   display: inline;
+ }
+
+ #local-search .search-dialog .local-search__hit-item .tag-list:hover {
+   background: var(--anzhiyu-main);
+   color: var(--anzhiyu-white);
+
+ }
