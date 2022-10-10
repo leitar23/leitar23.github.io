@@ -85,7 +85,7 @@
       <link href="/posts/a0ca7bc4/"/>
       <url>/posts/a0ca7bc4/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="一、前端简介"><a href="#一、前端简介" class="headerlink" title="一、前端简介"></a>一、前端简介</h1><p>制订网页开发的标准:万维网联盟（W3C）,编写的网页都需要遵循W3C的规范</p><h2 id="1-网页的结构思想"><a href="#1-网页的结构思想" class="headerlink" title="1.网页的结构思想"></a>1.网页的结构思想</h2><p>根据W3C标准，一个网页主要由三部分组成：结构、表现、行为。<br><img src="http://tva1.sinaimg.cn/mw690/006q0v6Vly1h70b3wl1g6j30yx0fedjs.jpg" alt="c1."><br><strong>结构、表现、行为</strong></p><ul><li>结构（骨架）：HTML用于描述页面的结构。 [比较简单、固定]</li><li>表现（皮肤）：CSS用于控制页面中元素的样式。[所有能看见的]</li><li><p>行为（交互）：JavaScript用于响应用户操作。[最难,主要的]<br><img src="http://tva1.sinaimg.cn/mw690/006q0v6Vly1h70bgkogtsg30hs0dc19l.gif" alt="c3."></p><h1 id="二、HTML简介"><a href="#二、HTML简介" class="headerlink" title="二、HTML简介"></a>二、HTML简介</h1><p>HTML使用<strong>标签</strong>的形式来标识网页中的不同组成部分</p><p>  根标签<html></html><br>  两个子标签<head></head>;<body></body><br>  <head>的子标签<title></title></p></li></ul>]]></content>
       
       
       <categories>
