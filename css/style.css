@@ -338,3 +338,19 @@ div#post div.relatedPosts div.relatedPosts-list img.cover {
 #pagination.pagination-post {
   border-radius: 25px;
 }
+
+
+
+/*
+#aside-content > .card-widget.card-info {
+  background: linear-gradient(-45deg, #425aef, #031764, #150136, #67044d);
+  background-size: 400%;
+  box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.05);
+  animation: gradient 15s ease infinite;
+  position: relative;
+  color: #fff;
+}
+.site-data > a .headline,
+.site-data > a .length-num {
+  color: #fff;
+}
