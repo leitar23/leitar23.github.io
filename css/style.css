@@ -316,3 +316,25 @@
   color: rgb(0, 255, 255);
   text-shadow: 0 0 5px #000000, 0 0 10px rgba(0, 0, 0, 0.49);
 }
+
+
+
+/* 侧栏最新文章板块图片圆角 与 各种圆角 */
+#aside-content.aside-content .aside-list-item .thumbnail img{
+  border-radius: 15%;
+}
+div#local-search div.search-dialog {
+  border-radius: 25px;
+}
+div#post nav#pagination div.prev-post img.prev-cover {
+  border-radius: 25px;
+}
+div#post div.relatedPosts div.relatedPosts-list img.cover {
+  border-radius: 25px;
+}
+.relatedPosts > .relatedPosts-list > div {
+  border-radius: 25px;
+}
+#pagination.pagination-post {
+  border-radius: 25px;
+}
