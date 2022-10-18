@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Infinite-23</title>
+  <title>『Infinite』</title>
   
   <subtitle>欢迎访问我的小屋</subtitle>
   <link href="https://qxz23.github.io/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>https://qxz23.github.io/</id>
   
   <author>
-    <name>Infinite-23</name>
+    <name>『Infinite』</name>
     
   </author>
   
