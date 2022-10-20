@@ -917,12 +917,12 @@
 
  [data-theme="light"] .back-home-button .back-menu-list-groups {
    /*控制左上角的菜单的颜色背景*/
-   --anzhiyu-card-bg: rgba(79, 186, 186, 1);
+   --anzhiyu-card-bg: rgb(246, 97, 194, 0.8);
  }
 
  [data-theme="dark"] .back-home-button .back-menu-list-groups {
    /*控制左上角的菜单的颜色背景*/
-   --anzhiyu-card-bg: rgba(0, 0, 0, 0.8);
+   --anzhiyu-card-bg: rgba(75, 74, 74, 0.8);
  }
 
  [data-theme="light"] #rightMenu .rightMenu-group .rightMenu-item {
