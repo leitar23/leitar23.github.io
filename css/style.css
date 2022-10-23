@@ -944,3 +944,52 @@
    --anzhiyu-maskbgdeep: rgb(255, 255, 255);
    --sevene-border-radius: 30px;
  }
+
+
+ /*顶部加载进度条*/
+ .pace {
+   pointer-events: none;
+   user-select: none;
+   z-index: 2;
+   position: fixed;
+   margin: auto;
+   top: 4px;
+   left: 0;
+   right: 0;
+   height: 8px;
+   border-radius: 8px;
+   width: 6rem;
+   background: #eaecf2;
+   overflow: hidden;
+ }
+
+ .pace-inactive .pace-progress {
+   opacity: 0;
+   transition: 0.3s ease-in;
+ }
+
+ .pace.pace-inactive {
+   opacity: 0;
+   transition: 0.3s;
+   top: -8px;
+ }
+
+ .pace .pace-progress {
+   box-sizing: border-box;
+   transform: translate3d(0, 0, 0);
+   position: fixed;
+   z-index: 2;
+   display: block;
+   position: absolute;
+   top: 0;
+   right: 100%;
+   height: 100%;
+   width: 100%;
+   background: #ffffff;
+   background: linear-gradient(to right,
+       rgb(78, 255, 243),
+       rgb(239, 21, 255),
+       rgb(250, 250, 39));
+   animation: gradient 2s ease infinite;
+   background-size: 200%;
+ }
