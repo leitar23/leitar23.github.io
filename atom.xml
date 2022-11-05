@@ -6,7 +6,7 @@
   <link href="https://qxz23.github.io/atom.xml" rel="self"/>
   
   <link href="https://qxz23.github.io/"/>
-  <updated>2022-10-13T10:18:45.803Z</updated>
+  <updated>2022-11-05T08:52:30.498Z</updated>
   <id>https://qxz23.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数据库笔记</title>
+    <link href="https://qxz23.github.io/posts/aaba1da3/"/>
+    <id>https://qxz23.github.io/posts/aaba1da3/</id>
+    <published>2022-11-01T07:43:12.000Z</published>
+    <updated>2022-11-05T08:52:30.498Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="数据库" scheme="https://qxz23.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+    <category term="MySQL" scheme="https://qxz23.github.io/tags/MySQL/"/>
+    
+  </entry>
   
   <entry>
     <title>字符编码&amp;字符集</title>
