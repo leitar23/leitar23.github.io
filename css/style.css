@@ -993,3 +993,11 @@
    animation: gradient 2s ease infinite;
    background-size: 200%;
  }
+
+
+ /*双色背景
+ #web_bg {
+   background-image: url(https://ae01.alicdn.com/kf/H18a4b99…l.png),
+     linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)),
+     url(https://s1.imagehub.cc/images/2022/08/02/image392dccadecebe262.png);
+ }*/
