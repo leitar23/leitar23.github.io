@@ -917,7 +917,7 @@
 
  [data-theme="light"] .back-home-button .back-menu-list-groups {
    /*控制左上角的菜单的颜色背景*/
-   --anzhiyu-card-bg: rgb(246, 97, 194, 0.8);
+   --anzhiyu-card-bg: rgba(15, 214, 184, 0.8);
  }
 
  [data-theme="dark"] .back-home-button .back-menu-list-groups {
