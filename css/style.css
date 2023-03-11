@@ -1,6 +1,6 @@
  /* 首页文章卡片 */
  #recent-posts>.recent-post-item {
-   background: rgba(255, 255, 255, 0.8);
+   background: rgba(255, 255, 255, 0.9);
    border: 2px solid #36f5ff;
  }
 
@@ -35,7 +35,7 @@
  }
 
  #aside-content>.card-widget.card-announcement {
-   background: rgba(255, 255, 255, 0.8) !important;
+   background: rgba(255, 255, 255, 0.9) !important;
    border: 2px solid #36f5ff;
  }
 
@@ -44,7 +44,7 @@
  }
 
  div.card-widget.card-recent-post {
-   background: rgba(255, 255, 255, 0.8) !important;
+   background: rgba(255, 255, 255, 0.9) !important;
    border: 2px solid #36f5ff;
  }
 
@@ -53,7 +53,7 @@
  }
 
  div.card-widget.card-categories {
-   background: rgba(255, 255, 255, 0.8) !important;
+   background: rgba(255, 255, 255, 0.9) !important;
    border: 2px solid #36f5ff;
  }
 
@@ -62,7 +62,7 @@
  }
 
  div.card-widget.card-tags {
-   background: rgba(255, 255, 255, 0.8) !important;
+   background: rgba(255, 255, 255, 0.9) !important;
    border: 2px solid #36f5ff;
  }
 
@@ -71,7 +71,7 @@
  }
 
  div.card-widget.card-archives {
-   background: rgba(255, 255, 255, 0.8) !important;
+   background: rgba(255, 255, 255, 0.9) !important;
    border: 2px solid #36f5ff;
  }
 
@@ -80,7 +80,7 @@
  }
 
  div.card-widget.card-webinfo {
-   background: rgba(255, 255, 255, 0.8) !important;
+   background: rgba(255, 255, 255, 0.9) !important;
    border: 2px solid #36f5ff;
  }
 
@@ -91,6 +91,12 @@
  /*目录*/
  div#card-toc.card-widget {
    border: 2px solid #36f5ff;
+   background: rgba(255, 255, 255, 0.901) !important;
+ }
+
+ [data-theme="dark"] div#card-toc.card-widget {
+   border: 2px solid #36f5ff;
+   background: rgba(0, 0, 0, 0.501) !important;
  }
 
  /*头像框*/
@@ -109,31 +115,31 @@
 
  /* 文章页面正文背景 */
  div#post {
-   background: rgba(255, 255, 255, 0.8);
+   background: rgba(255, 255, 255, 0.9);
    border: 2px solid #36f5ff;
  }
 
  /* 分页页面 */
  div#page {
-   background: rgba(255, 255, 255, 0.8);
+   background: rgba(255, 255, 255, 0.9);
    border: 2px solid #36f5ff;
  }
 
  /* 归档页面 */
  div#archive {
-   background: rgba(255, 255, 255, 0.8);
+   background: rgba(255, 255, 255, 0.9);
    border: 2px solid #36f5ff;
  }
 
  /* 标签页面 */
  div#tag {
-   background: rgba(255, 255, 255, 0.8);
+   background: rgba(255, 255, 255, 0.9);
    border: 2px solid #36f5ff;
  }
 
  /* 分类页面 */
  div#category {
-   background: rgba(255, 255, 255, 0.8);
+   background: rgba(255, 255, 255, 0.9);
    border: 2px solid #36f5ff;
  }
 
@@ -904,11 +910,15 @@
    border: var(--style-border);
    flex-direction: column;
    font-size: 12px;
-   color: var(--anzhiyu-secondtext);
+   color: #000000;
    box-shadow: var(--anzhiyu-shadow-border);
    transition: 0s;
    opacity: 0;
    pointer-events: none;
+ }
+
+ [data-theme="dark"] .back-home-button .back-menu-list-groups {
+   color: #ffffff;
  }
 
  .back-home-button .back-menu-list-group {
@@ -1004,12 +1014,12 @@
 
  [data-theme="light"] .back-home-button .back-menu-list-groups {
    /*控制左上角的菜单的颜色背景*/
-   --anzhiyu-card-bg: rgba(15, 214, 184, 0.8);
+   --anzhiyu-card-bg: rgba(255, 255, 255, 0.9);
  }
 
  [data-theme="dark"] .back-home-button .back-menu-list-groups {
    /*控制左上角的菜单的颜色背景*/
-   --anzhiyu-card-bg: rgba(75, 74, 74, 0.8);
+   --anzhiyu-card-bg: rgba(0, 0, 0, 0.9);
  }
 
  [data-theme="light"] #rightMenu .rightMenu-group .rightMenu-item {
