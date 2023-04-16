@@ -1,1 +1,12 @@
-function percent(){document.getElementById("page-name").innerText=document.title.split(" | Infinite-23")[0];let e=document.documentElement.scrollTop||window.pageYOffset,t=Math.max(document.body.scrollHeight,document.documentElement.scrollHeight,document.body.offsetHeight,document.documentElement.offsetHeight,document.body.clientHeight,document.documentElement.clientHeight)-document.documentElement.clientHeight,n=Math.round(e/t*100);n<=100||(n=100),document.querySelector("#percent").innerHTML=n}window.onscroll=percent;
+// 返回顶部 显示网页阅读进度
+window.onscroll = percent;// 执行函数
+// 页面百分比
+function percent() {
+document.getElementById("page-name").innerText = document.title.split(" | Infinite-23")[0];
+    let a = document.documentElement.scrollTop || window.pageYOffset, // 卷去高度
+        b = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.offsetHeight, document.body.clientHeight, document.documentElement.clientHeight) - document.documentElement.clientHeight, // 整个网页高度 减去 可视高度
+        result = Math.round(a / b * 100), // 计算百分比
+        btn = document.querySelector("#percent"); // 获取图标
+    result <= 100 || (result = 100), btn.innerHTML = result
+}
+
