@@ -158,7 +158,7 @@
     
     
     <entry>
-      <title>HTML笔记</title>
+      <title>HTML5&amp;CSS3笔记</title>
       <link href="/posts/a0ca7bc4/"/>
       <url>/posts/a0ca7bc4/</url>
       
@@ -169,12 +169,16 @@
           
           <category> 笔记 </category>
           
+          <category> 前端 </category>
+          
       </categories>
       
       
         <tags>
             
             <tag> HTML </tag>
+            
+            <tag> CSS </tag>
             
         </tags>
       
