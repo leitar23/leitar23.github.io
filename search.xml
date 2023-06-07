@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Vue3学习笔记</title>
+      <link href="/posts/882edeea/"/>
+      <url>/posts/882edeea/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>Vue是一套用于构建用户界面的渐进式JavaScript框架，提供了一套声明式的、组件化的编程模型。<br>渐进式框架：表示可以在项目中一点点来引入和使用Vue，不一定需要全部使用Vue来开发整个项目。</p></blockquote><h1 id="一、如何使用Vue"><a href="#一、如何使用Vue" class="headerlink" title="一、如何使用Vue"></a>一、如何使用Vue</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>数据结构笔记</title>
       <link href="/posts/928debf2/"/>
       <url>/posts/928debf2/</url>
